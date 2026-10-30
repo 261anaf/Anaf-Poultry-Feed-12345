@@ -1,0 +1,19 @@
+{
+  "name": "anaf-poultry-feed-farm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Anaf Poultry Feed & Farm management dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^4.21.2",
+    "sql.js": "^1.13.0"
+  }
+}
